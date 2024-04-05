@@ -1,5 +1,4 @@
-# YouTube Channel Data Access Initiative
-
+# YouTube Channel Data Harvesting And Warehousing
 The YouTube Channel Data Access Initiative aims to provide users with the capability to retrieve and analyze data from multiple YouTube channels. Through this project, users can gain insights into channel performance, audience demographics, and content trends, enabling them to make informed decisions and optimize their strategies for content creation, marketing, and audience engagement.
 
 ## Overview
