@@ -575,17 +575,13 @@ def main():
     st.markdown("") 
     current_tab = st.sidebar.radio("Navigation", ["Home", "Technologies Used", "Fetch Details"])
     if current_tab == "Home":
-        #st.image(r'C:\Users\sindh\OneDrive\Desktop\DS_Notes\12.jpg', width=300)
         st.markdown("<h1 style='color: red;font-family: Harlow Solid Italic;'> Project: YouTube Data Harvesting and Warehousing </h1>", unsafe_allow_html=True)
-      #  st.title("**YouTube Data Harvesting and Warehousing**")
         st.markdown("")  # Add a blank line
-      #  st.image(r'C:\Users\sindh\OneDrive\Desktop\DS_Notes\12.jpg', width=200)
         
         gif_path = r"C:\Users\sindh\Downloads\fyFl.gif."
         st.image(gif_path, use_column_width=True)
 
     elif current_tab == "Technologies Used":
-        #st.title("**YouTube Data Harvesting and Warehousing**")
         st.markdown("<h1 style='color: red;font-family: Harlow Solid Italic;'>YouTube Data Harvesting and Warehousing</h1>", unsafe_allow_html=True)
         st.markdown("")
         
@@ -610,7 +606,7 @@ def main():
             st.success("Database connection established and tables created successfully!")
 
             # YouTube API
-            Api_id = "AIzaSyAhBNkqZvs7JqdhrtZIADZSzQ4Lj8ToDkI"  # Replace 'YOUR_API_KEY' with your actual YouTube Data API key
+            Api_id = "### API Key ###"  
             Api_name = "youtube"
             Api_ver = "v3"
             YouTube = build(Api_name, Api_ver, developerKey=Api_id)
